@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="lg:fixed w-full ">
+      <body className="w-full ">
         <Head>
           <title>Cat Facts 🐱</title>
         </Head>
