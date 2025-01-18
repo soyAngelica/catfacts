@@ -16,7 +16,12 @@ const ListView = ({ listItems }: ListViewProps) => {
   });
 
   return (
-    <div className="w-full mx-auto">
+    <div
+      className="w-full h-[550px] mx-auto overflow-y-auto"
+      style={{
+        scrollbarWidth: "thin",
+      }}
+    >
       {getFactWithProfile.map((item, index) => (
         <ListItem
           key={index}
